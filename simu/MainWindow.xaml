@@ -1,0 +1,21 @@
+﻿<Window x:Class="simu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:simu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="330" Width="150">
+    <Grid>
+        <ComboBox Name="Type" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="Department" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="InterCost" HorizontalAlignment="Left" Height="23" Margin="10,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Components" HorizontalAlignment="Left" Height="23" Margin="10,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CrackCost" HorizontalAlignment="Left" Height="23" Margin="10,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="33,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Cost of Interconnection" HorizontalAlignment="Left" Margin="6,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Components" HorizontalAlignment="Left" Margin="6,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="6,198,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

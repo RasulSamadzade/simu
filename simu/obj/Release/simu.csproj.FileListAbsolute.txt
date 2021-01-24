@@ -1,0 +1,15 @@
+C:\Users\rsamadza\Source\Repos\simu\simu\bin\Release\simu.exe.config
+C:\Users\rsamadza\Source\Repos\simu\simu\bin\Release\simu.exe
+C:\Users\rsamadza\Source\Repos\simu\simu\bin\Release\simu.pdb
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.csprojAssemblyReference.cache
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\MainWindow.g.cs
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\App.g.cs
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu_MarkupCompile.cache
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu_MarkupCompile.lref
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\MainWindow.baml
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.g.resources
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.Properties.Resources.resources
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.csproj.GenerateResource.cache
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.csproj.CoreCompileInputs.cache
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.exe
+C:\Users\rsamadza\Source\Repos\simu\simu\obj\Release\simu.pdb

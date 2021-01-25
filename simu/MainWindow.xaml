@@ -5,17 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:simu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="330" Width="150">
+        Title="Rework Cost model" Height="330" Width="310">
     <Grid>
-        <ComboBox Name="Type" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="Type" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Type_SelectionChanged"/>
         <ComboBox Name="Department" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="InterCost" HorizontalAlignment="Left" Height="23" Margin="10,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="Components" HorizontalAlignment="Left" Height="23" Margin="10,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="CrackCost" HorizontalAlignment="Left" Height="23" Margin="10,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="33,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="CrackCost" HorizontalAlignment="Left" Height="23" Margin="10,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click"/>
         <Label Content="Cost of Interconnection" HorizontalAlignment="Left" Margin="6,102,0,0" VerticalAlignment="Top"/>
         <Label Content="Number of Components" HorizontalAlignment="Left" Margin="6,150,0,0" VerticalAlignment="Top"/>
         <Label Content="Result" HorizontalAlignment="Left" Margin="6,198,0,0" VerticalAlignment="Top"/>
+        <Label Content="Deparment" HorizontalAlignment="Left" Margin="6,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="Interconnection Type" HorizontalAlignment="Left" Margin="6,3,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="164,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="23" Margin="164,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Note" HorizontalAlignment="Left" Height="73" Margin="164,28,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Generate" Content="Generate Excel" HorizontalAlignment="Left" Margin="160,270,0,0" VerticalAlignment="Top" Width="124" Click="Generate_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="160,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="160,148,0,0" VerticalAlignment="Top"/>
+        <Label Content="Note" HorizontalAlignment="Left" Margin="160,3,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
